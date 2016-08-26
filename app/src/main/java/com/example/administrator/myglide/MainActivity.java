@@ -24,7 +24,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
 
 
-        Log.i("ww","ok");
+        Log.i("ww", "ok");
+        Log.i("ww", "ok2");
         imageView= (ImageView) findViewById(R.id.myImage);
         Glide.with(MainActivity.this).load(str).into(imageView);
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
